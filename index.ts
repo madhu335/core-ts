@@ -3,7 +3,7 @@ import {getColors, getJsonColors, employee} from './colors';
 console.log(getColors());
 console.log(getJsonColors());
 const str = JSON.stringify(getJsonColors());
-console.log(`string repsbnbnb is ${str} `);
+console.log(`string reps is ${str} `);
 
 const jsonObj = JSON.parse(str);
 jsonObj['new'] = 'newColor';
